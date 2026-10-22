@@ -1,0 +1,14 @@
+g++ --std=c++20 -c main.cpp -I/usr/include/SFML-3.0.0/include && g++ main.o -o App -L/usr/include/SFML-3.0.0/lib -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio && export LD_LIBRARY_PATH=/usr/include/SFML-3.0.0/lib && ./App
+
+
+middle click to drag
+
+left click to draw
+
+LShift + scroll wheel to increase or decrease the radius of the pen
+
+Ctrl + scroll to zoom in and out
+
+B to clear the canvas
+
+saving is not currently implemented. This project kind of turned into a creative exercise for drawing creatively without erasing and starting over again
